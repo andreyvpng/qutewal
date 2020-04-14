@@ -106,6 +106,10 @@ if os.path.isfile(colors_absolute):
     # Type: QssColor
     c.colors.hints.fg = colors['special']['background']
 
+    # CSS border value for hints.
+    # Type: String
+    c.hints.border = '1px solid ' + bg
+
     # Font color for the matched part of hints.
     # Type: QssColor
     c.colors.hints.match.fg = colors['colors']['color4']
